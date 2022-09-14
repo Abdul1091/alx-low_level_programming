@@ -2,12 +2,12 @@
 
 /**
  * _abs - Entry point
- * @c: n is an integer
+ * @n: n is an integer
  * Description: prints the absolute value of an integer
  * Return: int
  */
 
-int_abs(int n)
+int _abs(int n)
 {
 	if (n > 0)
 	{
