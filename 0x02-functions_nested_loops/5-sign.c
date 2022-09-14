@@ -2,7 +2,7 @@
 /**
  * print_sign - function to check for a sign of a number
  * @c: it the int that will use for the argument of the function
- * Retun: 0
+ * Retun: 1 if true. 0 if false
  */
 int print_sign(int n)
 {
