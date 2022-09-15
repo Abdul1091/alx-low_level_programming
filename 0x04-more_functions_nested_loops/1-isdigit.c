@@ -4,7 +4,7 @@
  * @value: argument to be checked
  * Return: returns 1 if success or 0 if otherwise
  */
-int _isgidit(int value)
+int _isdigit(int value)
 {
 	if (value >= '0' && value <= '9')
 	{
