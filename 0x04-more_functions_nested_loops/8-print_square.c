@@ -5,7 +5,7 @@
  * @size: size of the  square
  */
 
-void print_square(init size)
+void print_square(int size)
 {
 	int width, height;
 
