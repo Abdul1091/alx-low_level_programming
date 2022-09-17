@@ -2,7 +2,7 @@
 
 /**
  * print_sign - Entry point
- * @c: print the sign of a number
+ * @n: print the sign of a number
  * Retun: 1 if true. 0 if n == 0, -1 if n<0
  */
 
