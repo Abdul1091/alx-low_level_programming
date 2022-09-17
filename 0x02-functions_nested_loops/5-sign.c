@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Entry point
+ * print_sign - return the supposed sign of an integer
  * @n: print the sign of a number
  * Retun: 1 if true. 0 if n == 0, -1 if n<0
  */
