@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character
- * @str: string
- *
- * Return: nothing
- 	*/
+* puts2 - prints every other character
+* @str: string
+*
+* Return: nothing
+	*/
 
 void puts2(char *str)
 {
@@ -15,8 +15,8 @@ void puts2(char *str)
 	while (*(str + i) != '\0')
 	{
 		if (i % 2 == 0)
-	putchar(*(str + i));
-		i++;
+			putchar(*(str + i));
+			i++;
 	}
 	putchar(10);
 }
