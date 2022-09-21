@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * puts_half(char *str) - prints the second half of the string
+ * puts_half(char *str) - This is a description on 
+ * how to prints the second half of the string
  * @str: the string reference
+ *
  * Return: 0
- */
+	*/
 
 void puts_half(char *str)
 {
