@@ -2,7 +2,7 @@
 /**
  * print_sign - return the supposed sign of an integer
  * @value: the value to be evaluate
- * Retun: return 1 if positive 0 if value = 0 and -1 if negative
+ * Return: return 1 if positive 0 if value = 0 and -1 if negative
  */
 
 int print_sign(int value)
