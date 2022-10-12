@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		}
 		for (i = 0; i < n_bytes; i++)
 			printf("%02x%c",
-					(unsigned char)*((char *)prog + i), i < n_bytes -1 ? ' ' : '\n');
+					(unsigned char)*((char *)prog + i), i < n_bytes - 1 ? ' ' : '\n');
 	}
 	else
 	{
