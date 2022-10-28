@@ -1,29 +1,36 @@
 #include "main.h"
-
 /**
- * binary_to_unit - converts a binary number to an unsigned int.
- * @b: pointer to a string containing a binary number
- *
- * Return: unsigned int with decimal value of binary number, or 0 if error
+ * binary_to_unit - convert binary to decimal
+ * @b: the binary number in string format
+ * Description: convert binary to decimal
+ * section header: the header of this function is header.h
+ * Return: this return the convert number.
  */
+
 unsigned int binary_to_unit(const char *b)
 {
+	unsigned int result, base;
 	int i;
-	unsigned int num;
 
-	num = 0;
+	result = 0;
+	i = 0;
+	base = 1;
+
 	if (!b)
 		return (0);
-	for (i = 0; b[i] != '\0'; i++)
+
+	while (*(b + i))
 	{
-		if (b[i] != '0' && b[i] != '1')
+		if (*(b + i) != '0' && *(b + i) != '1')
 			return (0);
+		i++;
 	}
-	for (i = 0; b[i] != '\0'; i++)
+	for (i--; i >= 0; i--)
 	{
-		num <<= 1;
-		if (b[i] == '1')
-			num += 1;
+		if (*(b + i) == '1')
+			result = result + base;
+		base = base * 2;
 	}
-	return (num);
+
+	return (result);
 }
