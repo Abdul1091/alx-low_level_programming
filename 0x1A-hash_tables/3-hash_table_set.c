@@ -7,9 +7,8 @@
  * @value: The value associated with key.
  *
  * Return: Upon failure - 0.
- * 	   Otherwise - 1.
+ *         Otherwise - 1.
  */
-
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new;
@@ -51,4 +50,4 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	ht->array[index] = new;
 
 	return (1);
-}	
+}
